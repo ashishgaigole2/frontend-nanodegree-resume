@@ -13,3 +13,12 @@ This is empty on purpose! Your code to build the resume will go here.
  
  $("#header").prepend(formatedRole);
  $("#header").prepend(formatedName);
+ var skill= ["java" , "c" ,"js"];
+ var bio = {"name":"Ashish",
+			"role": "Web Developer",
+			"age" : 27,
+			"skills": skills,
+			"Message": "Welcome"
+ };
+  $("#main").append(bio);
+ 
