@@ -7,7 +7,7 @@ This is empty on purpose! Your code to build the resume will go here.
  var funThoughts = awesomeThoughts.replace("AWESOME","FUN");
  $("#main").append(funThoughts);
  console.log(funThoughts);
- var formatedName = HTMLheaderName.replace("%data%",name);
+ var formatedName = HTMLheaderName.replace("%data%","Golya");
  var role = "Web Developer";
  var formatedRole = HTMLheaderRole.replace("%data%",role);
  
