@@ -20,5 +20,5 @@ This is empty on purpose! Your code to build the resume will go here.
 			"skills": skill,
 			"Message": "Welcome"
  };
-  $("#header").append(bio);
+  $("#header").prepend(bio);
  
